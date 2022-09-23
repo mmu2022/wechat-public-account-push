@@ -123,7 +123,7 @@ export const USER_CONFIG = {
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
       festivals: [
-        {"type": "*生日", "name": "槑崽崽", "year": "2003", "date": "02-04"},
+        {"type": "*生日", "name": "槑崽崽", "year": "2002", "date": "08-15"},
         {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "12-07"},
       ],
       customizedDateList: []
