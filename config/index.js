@@ -100,7 +100,7 @@ export const USER_CONFIG = {
       useTemplateId: "3AJMJc4VLLaZLD0QIT4QClqigAKdda0DSY02U7pD9CM",
       province: "四川",
       city: "成都",
-      horoscopeDate: '',
+      horoscopeDate: '09-28',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
       festivals: [
@@ -113,18 +113,21 @@ export const USER_CONFIG = {
       ],
       customizedDateList: []
     },
-//     {
-//       name: "老婆2",
-//       id: "",
-//       useTemplateId: "",
-//       province: "",
-//       city: "",
-//       horoscopeDate: '',
-//       horoscopeDateType: '',
-//       openUrl: "https://wangxinleo.cn",
-//       festivals: [],
-//       customizedDateList: []
-//     },
+    {
+      name: "木木",
+      id: "o3yrX5ol__xBLDvNk2NFHpwLKxQ4",
+      useTemplateId: "Sb8ANKljf30XG1mB7uykfhaBJDzLi4ev8RMDKovfvvo",
+      province: "四川",
+      city: "成都",
+      horoscopeDate: '08-15',
+      horoscopeDateType: '今日',
+      openUrl: "https://wangxinleo.cn",
+      festivals: [
+        {"type": "*生日", "name": "槑崽崽", "year": "2003", "date": "02-04"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "12-07"},
+      ],
+      customizedDateList: []
+    },
 //     {
 //       name: "老婆3",
 //       id: "",
