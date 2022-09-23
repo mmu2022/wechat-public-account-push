@@ -105,7 +105,7 @@ export const USER_CONFIG = {
       openUrl: "https://wangxinleo.cn",
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "李晗", "year": "2003", "date": "02-28"},
+        {"type": "*生日", "name": "李晗", "year": "2002", "date": "09-28"},
         {"type": "节日", "name": "相识日", "year": "2021", "date": "05-06"},
 //         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
 //         {"type": "生日", "name": "槑崽崽", "year": "2003", "date": "02-04"},
@@ -167,9 +167,9 @@ export const USER_CONFIG = {
   /** 天气相关 */
   
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "四川",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "成都",
   
   /** 重要节日相关 */
   
@@ -192,11 +192,11 @@ export const USER_CONFIG = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+//     {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
+//     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+//     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+//     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
+//     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -214,16 +214,16 @@ export const USER_CONFIG = {
    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
    * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
    * */
-  CUSTOMIZED_DATE_LIST: [
-    // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
-    // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
-    // 你可以不断按格式往下增加
-    // ...
-  ],
+//   CUSTOMIZED_DATE_LIST: [
+//     // 在一起的日子
+//     {"keyword": "love_day", date: "2022-09-08"},
+//     // 结婚纪念日
+//     {"keyword": "marry_day", date: "2022-09-09"},
+//     // 退伍日
+//     {"keyword": "ex_day", date: "2022-09-10"},
+//     // 你可以不断按格式往下增加
+//     // ...
+//   ],
   
   /** 插槽 */
   
@@ -231,19 +231,19 @@ export const USER_CONFIG = {
    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
    * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
    * */
-  SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
-    // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-        "因为太喜欢你，所以看谁都像是情敌。",
-        "申请成为你爱里的永久居民。",
-        "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-        "遇见你，就好像捡到了100斤的运气",
-      ]},
-    // 你可以不断按格式往下增加
-    // ...
-  ],
+//   SLOT_LIST: [
+//     // 这样配置的话，就会每次发送这句话
+//     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+//     // 这样配置的话，就会每次随机选一句话发送
+//     {"keyword": "lover_prattle", contents: [
+//         "因为太喜欢你，所以看谁都像是情敌。",
+//         "申请成为你爱里的永久居民。",
+//         "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+//         "遇见你，就好像捡到了100斤的运气",
+//       ]},
+//     // 你可以不断按格式往下增加
+//     // ...
+//   ],
   
   
 }
