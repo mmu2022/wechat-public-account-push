@@ -97,13 +97,20 @@ export const USER_CONFIG = {
     {
       name: "李晗",
       id: "o3yrX5ijYUVTrT_BfrharDYbm874",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      useTemplateId: "3AJMJc4VLLaZLD0QIT4QClqigAKdda0DSY02U7pD9CM",
+      province: "四川",
+      city: "成都",
       horoscopeDate: '',
-      horoscopeDateType: '',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "槑崽崽", "year": "2003", "date": "02-04"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "12-07"},
+//         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+//         {"type": "生日", "name": "槑崽崽", "year": "2003", "date": "02-04"},
+//         {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "12-07"},
+      ],
       customizedDateList: []
     },
     {
